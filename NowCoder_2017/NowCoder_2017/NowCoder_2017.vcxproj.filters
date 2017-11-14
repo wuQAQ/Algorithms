@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\P01_TheChoir_DP\main.cpp">
+    <ClCompile Include="..\P02_PrisonEscape_BFS\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
