@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\P04_Field_DP\main.cpp">
+    <ClCompile Include="..\P05_Apple\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
