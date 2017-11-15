@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\P03_Kitchen_Map\main.c">
+    <ClCompile Include="..\P04_Field_DP\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
