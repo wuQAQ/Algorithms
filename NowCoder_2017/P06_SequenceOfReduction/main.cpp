@@ -9,8 +9,7 @@ bool appearIdx[105];
 int missIdx[15];
 int missNum[15];
 int misscnt = 0;
-int smaller[105][105];
-int larger[105][105];
+int addPairs[105][105];
 
 int calc_orderedPairs(int *num, int n);
 
@@ -53,14 +52,14 @@ int main()
 		int small = 0, large = 0;
 		for (int j = 0; j < n; j++) {
 			if (!A[j]) {
-				smaller[j][missNum[i]] = small;
+				addPairs[j][missNum[i]] = small;
 			}
 			else if (A[j] < missNum[i])
 				++small;
 		}
 		for (int j = n - 1; j >= 0; --j) {
 			if (!A[j]) {
-				larger[j][missNum[i]] = large;
+				addPairs[j][missNum[i]] += large;
 			}
 			else if (A[j] > missNum[i])++large;
 		}
@@ -79,8 +78,7 @@ int main()
 		// 获取消失字符数列对的大小
 		int inner = calc_orderedPairs(missNum, misscnt);
 		for (int i = 0; i < misscnt; ++i) {
-			inner += smaller[missIdx[i]][missNum[i]];
-			inner += larger[missIdx[i]][missNum[i]];
+			inner += addPairs[missIdx[i]][missNum[i]];
 		}
 		if (inner + given == k) ++ans;
 	} while (next_permutation(missNum, missNum + misscnt));
