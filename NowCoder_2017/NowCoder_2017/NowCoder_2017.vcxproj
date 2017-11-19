@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\P06_SequenceOfReduction\main.cpp" />
+    <ClCompile Include="..\P08_Bag\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{85BB2143-EB0A-4EBE-AC45-00A004CDE5FE}</ProjectGuid>

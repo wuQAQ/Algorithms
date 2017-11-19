@@ -1,2 +1,3 @@
 ﻿  main.cpp
-LINK : fatal error LNK1104: 无法打开文件“F:\Algorithms\NowCoder_2017\Debug\NowCoder_2017.ilk”
+  NowCoder_2017.vcxproj -> F:\Algorithms\NowCoder_2017\Debug\NowCoder_2017.exe
+  NowCoder_2017.vcxproj -> F:\Algorithms\NowCoder_2017\Debug\NowCoder_2017.pdb (Full PDB)

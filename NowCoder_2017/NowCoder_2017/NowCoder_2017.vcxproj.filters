@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\P06_SequenceOfReduction\main.cpp">
+    <ClCompile Include="..\P08_Bag\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
