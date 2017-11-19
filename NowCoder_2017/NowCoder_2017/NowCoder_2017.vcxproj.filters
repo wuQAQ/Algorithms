@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\P08_Bag\main.cpp">
+    <ClCompile Include="..\P09_Hungry\main_bfs.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
