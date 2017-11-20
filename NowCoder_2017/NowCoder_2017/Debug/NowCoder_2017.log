@@ -1,5 +1,5 @@
-﻿  main_bfs.cpp
-f:\algorithms\nowcoder_2017\p09_hungry\main_bfs.cpp(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+﻿  main_stl.cpp
+f:\algorithms\nowcoder_2017\p10_twosortmethod\main_stl.cpp(41): warning C4018: “<”: 有符号/无符号不匹配
+f:\algorithms\nowcoder_2017\p10_twosortmethod\main_stl.cpp(51): warning C4018: “<”: 有符号/无符号不匹配
   NowCoder_2017.vcxproj -> F:\Algorithms\NowCoder_2017\Debug\NowCoder_2017.exe
   NowCoder_2017.vcxproj -> F:\Algorithms\NowCoder_2017\Debug\NowCoder_2017.pdb (Full PDB)
