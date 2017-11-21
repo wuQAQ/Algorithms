@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\P10_TwoSortMethod\main_stl.cpp" />
+    <ClCompile Include="..\P11_\main_re_11.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{85BB2143-EB0A-4EBE-AC45-00A004CDE5FE}</ProjectGuid>
